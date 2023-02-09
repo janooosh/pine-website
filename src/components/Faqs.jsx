@@ -6,53 +6,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Welche Shopsysteme werden unterstützt? ',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Hello Pine unterstützt momentan Shopify und WooCommerce. Wir arbeiten an weiteren Schnittstellen, die in Kürze angeboten werden. ',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Wie viel Zeit muss ich für die Einrichtung einplanen? ',
+      answer: 'Die Einrichtung funktioniert super schnell. Die meisten Händler brauchen wenige Minuten. Bei Fragen unterstützt dich unser Customer Support gerne jederzeit. ',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Wie lange dauert die Testphase? ',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Wir bieten dir eine Testphase von einem Monat an, damit du genug Zeit hast, um dich von Hello Pine zu überzeugen. ',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Brauche ich spezielles Vorwissen?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Nein, unsere Software ist auf Benutzerfreundlichkeit ausgelegt. Außerdem wissen wir, dass Multichannel für Dich vielleicht ein brandneues Thema ist - daher erleichtern wir Dir den Einstieg durch unseren Support und hilfreiche Anleitungen. ',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Sind EANs verpflichtend?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Ob EANs verpflichtend sind oder nicht, das hängt vom Marktplatz ab. Wir unterstützen Dich aber dabei, herauszufinden, ob Du eine EAN benötigst oder nicht. Kontaktiere gerne unseren Kundensupport.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'Wie lange ist Kündigungsfrist?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Du kannst die Subscription jederzeit kündigen - es gibt also keine bestimmten Vertragslaufzeiten. Wir sind uns aber sicher, dass Du sehr gerne Hello Pine Nutzer bleibst :-)',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Werde ich während des Setups von Hello Pine unterstützt?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'In unserem Knowledge Hub findest Du alle Antworten auf Deine Fragen. Falls es darüberhinaus noch Unklarheiten gibt, kannst Du uns jederzeit eine Email schreiben unter connect@hello-pine.com',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Sind Preispläne flexibel?',
+      answer: 'Alle Preispläne sind flexibel, anpassbar und aktualisieren sich jeden Monat automatisch, basierend auf der Anzahl der abgewickelten Bestellungen.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Gibt es eine Shopify App von Hello Pine?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Selbstverständlich findest Du uns im Shopify App Store. Unsere App wird regelmäßig aktualisiert und ermöglicht Dir, Deine Produkte innerhalb weniger Sekunden zu synchronisieren.',
     },
   ],
 ]
@@ -65,11 +65,9 @@ export function Faqs() {
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
       <Image
-        className="absolute top-0 left-1/2 max-w-none translate-x-[-30%] -translate-y-1/4"
+        className="absolute top-0  h-full "
         src={backgroundImage}
         alt=""
-        width={1558}
-        height={946}
         unoptimized
       />
       <Container className="relative">
@@ -78,11 +76,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            FAQ
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+          Schau doch gerne in unserem Knowledge Hub nach oder schreibe uns eine Email unter <a href="mailto:connect@hello-pine.com">connect@hello-pine.com</a>, falls Du noch weitere Fragen hast :)
           </p>
         </div>
         <ul

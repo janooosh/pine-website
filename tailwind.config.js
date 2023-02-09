@@ -24,8 +24,12 @@ module.exports = {
             colors: {
                 pine: {
                     DEFAULT: '#5C3E7B',
-                    light: '#ECEAED'
+                    light: '#FFEDED',
+                    digga: '#ECEAED'
                 },
+                klamo: {
+                    DEFAULT: '#2A363B'
+                }
             },
             borderRadius: {
                 '4xl': '2rem',

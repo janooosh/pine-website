@@ -2,13 +2,10 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      unoptimized: true
-  },
+        unoptimized: true
+    },
     experimental: {
         scrollRestoration: true,
-        images: {
-          unoptimized: true,
-        }
     },
 }
 

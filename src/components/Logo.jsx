@@ -1,9 +1,17 @@
 import Image from 'next/image'
+import appLogo from '@/images/logos/hello-pine.svg'
 
 export function Logo(props) {
   return (
     <>
-              <p>Hello Pine</p>
+      <Image
+        className=""
+        src={appLogo}
+        alt=""
+        width={120}
+        unoptimized
+      />
+      <img  />
     </>
   )
 }
