@@ -21,7 +21,7 @@ const features = [
   {
     title: 'Preise Verwalten',
     description:
-      "Du möchtest andere Preise in deinem Shop anzeigen, als auf deinen Marktplatz? Kein Problem, wir ermöglichen dir eine ganz einfache Steuerung deiner Preise. ",
+      "Du möchtest andere Preise in deinem Shop anzeigen, als auf deinem Marktplatz? Kein Problem, wir ermöglichen dir eine ganz einfache Steuerung deiner Preise. ",
     image: screenshotProducts,
   },
   {
@@ -60,7 +60,7 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-pine pt-20 pb-28 sm:py-32"
     >
       <Image
         className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"

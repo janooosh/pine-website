@@ -10,7 +10,7 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Automatisierung',
+    name: 'Steigere deine Effizienz',
     summary: 'Automatisierung',
     description:
       'Du kannst dich so einfach wie noch nie mit Marktplätzen verbinden. Wir automatisieren den Datenbleich, sodass du dir eine Menge Zeit spart.',
@@ -44,11 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Eine einfache Lösung',
     summary:
       'Bedienbarkeit',
     description:
-      'Der Rekord liegt bei wenigen Minuten! Länger dauert es nicht, deinen Shopify oder WooCommerce Shop an Hello Pine anzuschließen. Ab dann läuft alles ganz von allein',
+      'Der Rekord liegt bei wenigen Minuten! Länger dauert es nicht, deinen Shopify oder WooCommerce Shop an Hello Pine anzuschließen. Ab dann läuft alles ganz von allein.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,7 +72,7 @@ const features = [
     },
   },
   {
-    name: 'Kostengünstig',
+    name: 'Zu fairem Preis',
     summary:
       'Kotengünstig',
     description:
@@ -134,7 +134,7 @@ function FeaturesMobile() {
       {features.map((feature) => (
         <div key={feature.name}>
           <Feature feature={feature} className="max-w-2xl mx-auto" isActive />
-          <div className="relative pb-10 mt-10">
+          {/* <div className="relative pb-10 mt-10">
             <div className="absolute bottom-0 -inset-x-4 top-8 bg-slate-200 sm:-inset-x-6" />
             <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
@@ -144,7 +144,7 @@ function FeaturesMobile() {
                 sizes="52.75rem"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

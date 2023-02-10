@@ -8,7 +8,7 @@ export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="relative overflow-hidden bg-blue-600 py-32"
+      className="relative overflow-hidden bg-pine py-32"
     >
       <Image
         className="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
@@ -23,7 +23,7 @@ export function CallToAction() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             Deine wertvolle Zeit
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-white">
+          <p className="mt-4 text-lg tracking-tight text-white break-words">
           Verkaufst Du schon auf Marktplätzen? Dann weißt Du sicherlich, dass es fast unmöglich ist, Produktdaten, Lagerbestände und Bestellungen im Blick zu behalten. Unser Tool automatisiert diese Prozesse innerhalb von Minuten und Du musst nicht mehr Tag für Tag verschiedene Systeme pflegen. 
           </p>
           <Button href="https://app.hello-pine.com/regiter" color="white" className="mt-10">

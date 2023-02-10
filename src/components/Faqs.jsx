@@ -30,7 +30,7 @@ const faqs = [
       question:
         'Sind EANs verpflichtend?',
       answer:
-        'Ob EANs verpflichtend sind oder nicht, das hängt vom Marktplatz ab. Wir unterstützen Dich aber dabei, herauszufinden, ob Du eine EAN benötigst oder nicht. Kontaktiere gerne unseren Kundensupport.',
+        'Ob EANs verpflichtend sind oder nicht, hängt vom Marktplatz ab. Wir unterstützen Dich aber dabei, herauszufinden, ob Du eine EAN benötigst oder nicht. Kontaktiere gerne unseren Kundensupport.',
     },
     {
       question:
@@ -46,8 +46,8 @@ const faqs = [
         'In unserem Knowledge Hub findest Du alle Antworten auf Deine Fragen. Falls es darüberhinaus noch Unklarheiten gibt, kannst Du uns jederzeit eine Email schreiben unter connect@hello-pine.com',
     },
     {
-      question: 'Sind Preispläne flexibel?',
-      answer: 'Alle Preispläne sind flexibel, anpassbar und aktualisieren sich jeden Monat automatisch, basierend auf der Anzahl der abgewickelten Bestellungen.',
+      question: 'Sind die Preispläne flexibel?',
+      answer: 'Alle Preispläne sind flexibel, anpassbar und aktualisieren sich jeden Monat automatisch basierend auf der Anzahl der abgewickelten Bestellungen.',
     },
     {
       question: 'Gibt es eine Shopify App von Hello Pine?',
