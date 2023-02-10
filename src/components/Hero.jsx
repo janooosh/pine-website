@@ -51,7 +51,7 @@ export function Hero() {
             [
               { name: 'Meta', logo: logoMeta },
               { name: 'Otto', logo: logoOtto },
-              { name: 'Zalando', logo: logoAvocadostore },
+              { name: 'Zalando', logo: logoZalando },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
