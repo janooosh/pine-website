@@ -17,7 +17,7 @@ export default function Home() {
         <title>Hello Pine - AI powered Multichannel</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Hello Pine enables you to connect easily with your most important marketplaces. Boost your revenues and save money by automating your workflow. Book our free trail today."
         />
       </Head>
       <Header />
