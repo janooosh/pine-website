@@ -8,10 +8,10 @@ export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="relative overflow-hidden bg-pine py-32"
+      className="relative py-32 overflow-hidden bg-pine"
     >
       <Image
-        className="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
+        className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-none"
         src={backgroundImage}
         alt=""
         width={2347}
@@ -19,14 +19,14 @@ export function CallToAction() {
         unoptimized
       />
       <Container className="relative">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl tracking-tight text-white font-display sm:text-4xl">
             Deine wertvolle Zeit
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white break-words">
           Verkaufst Du schon auf Marktplätzen? Dann weißt Du sicherlich, dass es fast unmöglich ist, Produktdaten, Lagerbestände und Bestellungen im Blick zu behalten. Unser Tool automatisiert diese Prozesse innerhalb von Minuten und Du musst nicht mehr Tag für Tag verschiedene Systeme pflegen. 
           </p>
-          <Button href="https://app.hello-pine.com/regiter" color="white" className="mt-10">
+          <Button href="https://app.hello-pine.com/register" color="white" className="mt-10">
             Jetzt kostenlos testen
           </Button>
         </div>
