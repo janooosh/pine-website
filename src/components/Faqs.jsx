@@ -34,7 +34,7 @@ const faqs = [
     },
     {
       question:
-        'Wie lange ist Kündigungsfrist?',
+        'Wie lange ist die Kündigungsfrist?',
       answer:
         'Du kannst die Subscription jederzeit kündigen - es gibt also keine bestimmten Vertragslaufzeiten. Wir sind uns aber sicher, dass Du sehr gerne Hello Pine Nutzer bleibst :-)',
     },

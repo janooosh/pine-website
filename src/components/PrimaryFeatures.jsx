@@ -25,7 +25,7 @@ const features = [
     image: screenshotProducts,
   },
   {
-    title: 'Lagebestände Synchronisieren',
+    title: 'Lagerbestände Synchronisieren',
     description:
       "Deine Lagerbestände werden ich Echtzeit abgeglichen. Beschäftige dich nicht mehr mit nervigen Doppelbuchungen und manuellen Listenabgleichen.",
     image: screenshotProducts,
