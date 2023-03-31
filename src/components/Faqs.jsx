@@ -17,7 +17,7 @@ const faqs = [
     {
       question: 'Wie lange dauert die Testphase? ',
       answer:
-        'Wir bieten dir eine Testphase von einem Monat an, damit du genug Zeit hast, um dich von Hello Pine zu überzeugen. ',
+        'Wir bieten dir eine Testphase von 14 Tagen an, damit du genug Zeit hast, um dich von Hello Pine zu überzeugen. ',
     },
   ],
   [

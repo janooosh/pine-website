@@ -76,7 +76,7 @@ const features = [
     summary:
       'Kostengünstig',
     description:
-      'Bei uns zahlst Du nicht für Marktplätze, über die Du gar nicht verkaufen willst. Unser flexibles Pricing ermöglicht dir, ein individuelles Paket zu erstellen. Bei Fragen hilft Dir unser 24/7 Support.',
+      'Bei uns zahlst Du nicht für Marktplätze, über die Du gar nicht verkaufen willst. Unser flexibles Pricing ermöglicht dir, ein individuelles Paket zu erstellen. Bei Fragen hilft Dir unser Support.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
